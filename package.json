@@ -1,0 +1,19 @@
+{
+  "name": "landing-renault",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeronimoVenzi/landing-renault.git"
+  },
+  "author": "geronimo venzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeronimoVenzi/landing-renault/issues"
+  },
+  "homepage": "https://github.com/GeronimoVenzi/landing-renault#readme"
+}
