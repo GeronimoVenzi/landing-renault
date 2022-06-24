@@ -1,0 +1,35 @@
+.header {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    padding: 1rem;
+}
+.header-nav {
+    display: flex;
+    align-self: flex-end;    
+}
+
+.header-nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+    list-style: none;
+}
+
+.header-nav-menu li {
+    display: inline-block;
+}
+
+.header-nav-menu li, a {
+    display: block;
+    color: black;
+    font-size: 0.93rem;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.header-nav-menu li, a:hover {
+    color: #7671ff;
+  }
