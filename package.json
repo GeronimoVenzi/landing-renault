@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GeronimoVenzi/landing-renault/issues"
   },
-  "homepage": "https://github.com/GeronimoVenzi/landing-renault#readme"
+  "homepage": "https://github.com/GeronimoVenzi/landing-renault#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.3"
+  }
 }

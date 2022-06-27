@@ -13,22 +13,78 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
   </head>
   <body>
-    <header>
-      <div class="header">
-        <img src="" alt="" class="header-logo" />
-        <nav class="header-nav">
-          <ul class="header-nav-menu">
-            <li><a href="#">Vehículos</a></li>
-            <li><a href="#">Renault Servicios</a></li>
-            <li><a href="#">Financiación</a></li>
-            <li><a href="#"></a></li>
-          </ul>
-        </nav>
+    <header class="header">
+      <div class="header-container">
+        <img src="./img/logo.png" alt="" class="header-logo" />
+        <button class="header-btn">
+          <a href=""> CONTACTÁ CON UN ASESOR </a>
+        </button>
       </div>
+      <i class="bi bi-telephone-plus header-phone">
+        <a href="tel:%0800%20220-2090">0800 220 2090</a>
+      </i>
     </header>
 
+    <section class="section">
+      <h1 class="title">Encontrá el <span>plan ideal</span> para vos!</h1>
+      <div class="section-container">
+        <ul class="section-container-list">
+          <li>Financia tu 0KM en cuotas</li>
+          <li>100% personalizado</li>
+          <li>Sin interés</li>
+          <li>Directo de Plan Rombo</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container">
+    <div class="container-modal">
+      <div class="">
+        <img src="" alt="" />
+      </div>
+      <div class="container-form">
+        <form action="" class="formulario">
+          <div class="formulario-header">
+            <h1 class="formulario-title">
+              Formulario<span> de contacto</span>
+            </h1>
+          </div>
+          <label for="nombre" class="form-label">Nombre y apellido: </label>
+          <input
+            type="text"
+            id="nombre"
+            class="form-input"
+            placeholder="Escriba su nombre y apellido"
+          />
+
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-input"
+            id="correo"
+            placeholder="Escriba su correo"
+          />
+
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea
+            id="mensaje"
+            class="formTextarea"
+            placeholder="Escriba su mensaje"
+          ></textarea>
+
+          <button type="enviar" class="form-btn">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <section>
+      <div></div>
+    </section>
     <a
       href="https://api.whatsapp.com/send?phone=5195508107&text="
       class="float"
