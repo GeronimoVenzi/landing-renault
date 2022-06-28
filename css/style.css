@@ -1,3 +1,7 @@
+/* fonts google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
 .header {
     height: 140px;
     display: flex;
@@ -54,70 +58,101 @@
     justify-content: space-between;
 }
 
-.tituloFormulario{
-    font-size: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 14px 0;
+/* section carousel y form */
+
+.container-modal {
+    display: flex;
+    justify-content: space-between;
 }
-.contenedor{
+
+.formulario-title{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;;
+    padding: 14px 0;
+    text-align: center;
+}
+.container-form{
     font-weight: normal;
     color: black;
     padding-bottom: 1em;
 }
-.contenedor span{
-    color:rgb(157, 248, 255);
+.container-form span{
+    color:#fff;
 }
 .formulario{
-    background-color:rgb(89, 87, 87);
-    width: 90%;
+    background-color:rgb(145, 145, 145);
+    width: 50%;
     max-width: 650px;
     margin: auto;
     padding: 5px 35px;
-    margin-top: 30px ;
+    margin-right: 450px;
+    margin-top: 0;
     padding-bottom: 30px;
-    border-radius: 60px;
+    border-radius: 8px;
 }
-.formLabel{
+
+.form {
     display: block;
-    color:rgb(157, 248, 255);
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-label{
+    display: block;
+    color:black;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
     position: relative;
 }
-.formInput{
+.form-input{
    border: none;
    outline: none;
-   border-bottom: 2px solid rgb(157, 248, 255);
-   width: 100%;
+   border-bottom: 2px solid rgb(52, 22, 70);
+   width: 50%;
    padding: 12px;
+   margin-top: 12px;
    margin-bottom: 20px;
-   border-radius: 60px;
+   border-radius: 8px;
    font-size: 14px;
    color: black;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Roboto', sans-serif;
 }
-.formTextarea{
+.form-textarea{
     border: none;
-    border-bottom: 2px solid rgb(157, 248, 255);
-    width: 100%;
+    border-bottom: 2px solid rgb(52, 22, 70);
+    width: 75%;
     padding: 12px;
+    margin-top: 12px;
     margin-bottom: 20px;
-    border-radius: 60px;
+    border-radius: 8px;
     font-size: 14px;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
-.btn{
-    width: 20%;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   outline: none;
-   font-size: 14px;
-   border: none;  
-   border-radius: 60px;
-   padding: 15px 0;
-   cursor: pointer;
-   transition: all .5s ease;
+
+.form-btn {
+    display: flex;
+    justify-content: center;
 }
-.btn:hover{
-    background: rgb(157, 248, 255);
+
+.form-btn-btn{
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    font-size: 14px;
+    border: none;  
+    border-radius: 8px;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn-btn:hover {
+    background-color: rgb(56, 5, 71);
+}
+
+.paraghraph {
+    text-align: center;
 }

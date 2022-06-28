@@ -45,9 +45,27 @@
 
     <section class="container">
     <div class="container-modal">
-      <div class="">
-        <img src="" alt="" />
-      </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/76e618189587bd5e60bb09c287944c73.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/76e618189587bd5e60bb09c287944c73.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       <div class="container-form">
         <form action="" class="formulario">
           <div class="formulario-header">
@@ -55,30 +73,36 @@
               Formulario<span> de contacto</span>
             </h1>
           </div>
-          <label for="nombre" class="form-label">Nombre y apellido: </label>
-          <input
-            type="text"
-            id="nombre"
-            class="form-input"
-            placeholder="Escriba su nombre y apellido"
-          />
+          <div class="form">
+            <label for="nombre" class="form-label">Nombre y apellido: </label>
+            <input
+              type="text"
+              id="nombre"
+              class="form-input"
+              placeholder="Escriba su nombre y apellido"
+              required
+            />
 
-          <label for="email" class="form-label">Email</label>
-          <input
-            type="email"
-            class="form-input"
-            id="correo"
-            placeholder="Escriba su correo"
-          />
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-input"
+              id="correo"
+              placeholder="Escriba su correo"
+              required
+            />
 
-          <label for="mensaje" class="form-label">Mensaje</label>
-          <textarea
-            id="mensaje"
-            class="formTextarea"
-            placeholder="Escriba su mensaje"
-          ></textarea>
-
-          <button type="enviar" class="form-btn">Enviar</button>
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea
+              id="mensaje"
+              class="form-textarea"
+              placeholder="Escriba su mensaje"
+              required
+            ></textarea>
+          </div>
+          <div class="form-btn">
+            <button type="enviar" class="form-btn-btn">Enviar</button>
+          </div>
         </form>
       </div>
     </div>
@@ -92,5 +116,13 @@
     >
       <i class="fa fa-whatsapp my-float"></i>
     </a>
+
+
+    <p class="paraghraph">
+      Deja que renault expanda tus horizontes <br>
+      ¡Atrévete a explorar con Renault! Admira el diseño de una camioneta urbana. 
+      Sal de los caminos conodicos con la <br> pick-up 4x4. Libera el conductor que hay en ti conduciendo una SUV deportiva.
+      Con diseño, tecnologia y rendimiento,<br> los vehículos Renault sobresalen entre lo comun y responden a cada necsesidad.
+    </p>
   </body>
 </html>
