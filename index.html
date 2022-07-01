@@ -74,18 +74,77 @@
 
         </div>
 
-      <form class="position-static m-3">
+      <form action="https://formsubmit.co/geronimovenzi@live.com.ar" method="POST" class="position-static m-3">
         <div class="mb-3">
           <h1 class="fs-4">Formulario de Conctacto</h1>
-          <label for="exampleInputEmail1" class="form-label mt-2">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label 
+          for="exampleInputNamel1" 
+          class="form-label mt-2"
+          type="text"
+          name="name"
+          >Nombre
+        </label>
+          <input 
+          type="text"
+          name="name" 
+          class="form-control" 
+          id="exampleInputName1" 
+          aria-describedby="nameHelp"
+          required
+          placeholder="Ingrese su nombre y apellido"
+          >
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label 
+          for="exampleInputEmail1" 
+          class="form-label"
+          >Correo electrónico
+        </label>
+          <input 
+          type="email" 
+          name="email"
+          id="exampleInputEmail1"
+          class="form-control" 
+          required
+          placeholder="Ingrese su Email"
+          >
+        </div>
+        <div class="mb-3">
+          <label 
+          for="exampleInputBusiness1" 
+          class="form-label"
+          >Empresa
+        </label>
+          <input 
+          type="text" 
+          name="business"
+          class="form-control" 
+          id="exampleInputBusiness1"
+          required
+          placeholder="Ingrese su Empresa"
+          >
+        </div>
+        <div class="mb-3">
+          <label 
+          for="exampleInputPhone1" 
+          class="form-label"
+          >Teléfono
+        </label>
+          <input 
+          type="number" 
+          name="phone"
+          class="form-control" 
+          id="exampleInputPhone1"
+          required
+          placeholder="Ingrese su Teléfono"
+          >
         </div>
         <div class="d-flex justify-content-center mt-4">
-          <button type="submit" class="btn btn-outline-primary align-items-center">Enviar</button>
+          <button 
+          type="submit" 
+          class="btn btn-outline-primary  align-items-center "
+          >Enviar
+        </button>
         </div> 
       </form>
   </section>
