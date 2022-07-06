@@ -50,14 +50,18 @@
     </section>
 
     <section class="d-flex mt-3 justify-content-center gap-4">
-        <div id="carouselExampleIndicators" class="carousel slide col-6 m-3" data-bs-ride="carousel">
+        <div 
+        id="carouselExampleIndicators" 
+        class="carousel slide col-6 m-3 mt-5 pt-4" 
+        data-bs-ride="carousel"
+        >
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
-          <div class="carousel-inner mt-5 pt-5">
+          <div class="carousel-inner pt-5 mt-5">
             <div class="carousel-item active"  data-bs-interval="4000">
               <img src="./img/kangoo-furgon.png" class="d-block w-70" alt="kangoo furgon">
             </div>
@@ -152,6 +156,18 @@
             required
             placeholder="Ingrese Modelo de interés"
             >
+        </div>
+        <div class="form-group mt-2">
+          <label 
+          for="exampleFormControlTextarea1"
+          >Comentario
+        </label>
+          <textarea 
+          class="form-control mt-2" 
+          id="exampleFormControlTextarea1" 
+          rows="3"
+          >
+        </textarea>
         </div>
         <div class="d-flex justify-content-center mt-4">
           <button 
@@ -271,8 +287,6 @@
       </p>
     </div>
 
-    <!-- Script js -->
-    <script src="./js/slider.js"></script>
 
     <!-- JS BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
