@@ -12,3 +12,7 @@ body {
 .caja {
     background-color: rgb(218, 226, 98);
 }
+
+.imagen-container {
+    width: 700px;
+}
