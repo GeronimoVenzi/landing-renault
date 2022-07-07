@@ -8,3 +8,7 @@ body {
 .tarjeta {
     min-height: 260px;
 }
+
+.caja {
+    background-color: rgb(218, 226, 98);
+}
