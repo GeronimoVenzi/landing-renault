@@ -10,7 +10,8 @@ body {
 }
 
 .caja {
-    background-color: rgb(218, 226, 98);
+    background-color: #eddd04;
+    height: 213px;
 }
 
 .imagen-container {
